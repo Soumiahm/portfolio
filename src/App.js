@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Row, Col, Button} from 'reactstrap';
+import {Container, Row, Col} from 'reactstrap';
 import Projects from './components/Projects';
 import Sidebar from './components/Sidebar';
 import './App.css';
@@ -20,7 +20,7 @@ class App extends Component{
                 <footer>
                     <Container>
                         <hr/>
-                    <p className="text-center">© Designer. All Rights Reserved.</p>
+                    <p className="text-center">©Soumia Hachami. All Rights Reserved.</p>
                     </Container>
                 </footer>
 
