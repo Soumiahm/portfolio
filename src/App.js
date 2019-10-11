@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import {Container, Row, Col} from 'reactstrap';
-import Projects from './components/Projects';
-import Sidebar from './components/Sidebar';
+import Main from './components/MainComponent';
+import { BrowserRouter } from 'react-router-dom'; 
 import './App.css';
 
 
@@ -10,21 +9,9 @@ class App extends Component{
     render(){
         
         return(
-            <div>
-                <Container>
-                    <Row>
-                        <Col md="4"><Sidebar/></Col>
-                        <Col md="8"><Projects/></Col>
-                    </Row>
-                </Container>
-                <footer>
-                    <Container>
-                        <hr/>
-                    <p className="text-center">©Soumia Hachami. All Rights Reserved.</p>
-                    </Container>
-                </footer>
-
-            </div>
+            <BrowserRouter>
+                <Main/>
+            </BrowserRouter>           
         );
     }
 }

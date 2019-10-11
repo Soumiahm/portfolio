@@ -1,7 +1,14 @@
 body{
     margin-top: 4%;
-    color: #3b3b3b;
+    color: #808080; /*#3b3b3b;*/
+    line-height: 160%;
 }
+h2{
+    color: #f6bb42; 
+    margin-bottom: 50px; 
+    text-align: center;
+}
+
 .navLinkStyle { 
     font-size: 115%;
     font-weight: 600;
